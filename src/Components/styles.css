@@ -1,0 +1,29 @@
+.vertical-line {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 1px; /* Adjust line width as needed */
+    height: 100%;
+    background-color: black; /* Adjust color as needed */
+    overflow-y: scroll; /* Apply scroll behavior */
+  }
+  
+  .grid-divider {
+    position: relative;
+    width: 100%;
+    height: 1200px; /* Adjust height as needed */
+  }
+  
+  .polygon {
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    background-color: red; /* Adjust color as needed */
+    /* Custom shape */
+    clip-path: polygon(50% 0%, 0% 50%, 50% 100%, 100% 50%);
+  }
+  
+  .number {
+    position: absolute;
+    font-size: 12px; /* Adjust font size as needed */
+    color: black; /* Adjust color as needed */
+  }
