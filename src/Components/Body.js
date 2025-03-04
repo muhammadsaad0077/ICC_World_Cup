@@ -89,20 +89,21 @@ const Body = () => {
   return (
     
     <div className="grid grid-cols-12" >
-      <div className='bg-red-500 col-span-5 fixed h-[100%] w-[25%]'>
+      <div className='bg-red-500 col-span-5 fixed h-[82%] md:h-[100%] w-[25%]'>
         <div className='flex'>
           <img alt='img' src={img} className='m-4 ml-4 w-[60px] h-[60px] rounded-[60%]' />
-          <h1 className='md:text-[30px] text-[11px] md:mt-4 mt-24 md:right-0 relative right-[89px] rounded-xl font-sans stroke-red-600 text-white font-bold whitespace-nowrap'>ICC WC WINNERS</h1>
+          <h1 className='md:text-[30px] text-[11px] md:mt-4 mt-24 md:right-0 relative right-[90px] rounded-xl font-light stroke-red-600 text-white md:font-bold whitespace-nowrap md:font-sans'>ICC WC WINNERS</h1>
         </div>
       </div>
       <div
-      className='col-span-7 bg-yellow-400 ml-[2.5px] relative left-[40%] h-screen w-screen md:w-[130%] transition-all transition-1000 ease-out'
+      className='col-span-7 bg-yellow-400 ml-[2.5px] relative left-[40%] h-screen md:h-screen w-[270%] md:w-[130%] transition-all transition-1000 ease-out'
       style={{
         backgroundImage: `url(${yearBackgrounds[activeYear][activeImageIndex]})`,
         backgroundPosition: '',
         backgroundRepeat: '',
         backgroundSize: '',
-        opacity: '1.8'
+        opacity: '1.8',
+        
       }}
     >
       <div className='flex md:text-xl'>
